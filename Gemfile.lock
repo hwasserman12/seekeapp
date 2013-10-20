@@ -113,6 +113,8 @@ GEM
       multi_json (~> 1.0, >= 1.0.2)
     warden (1.2.3)
       rack (>= 1.0)
+    wicked (1.0.2)
+      rails (>= 3.0.7)
 
 PLATFORMS
   ruby
@@ -128,3 +130,4 @@ DEPENDENCIES
   simple_form
   sqlite3
   uglifier (>= 1.0.3)
+  wicked (= 1.0.2)

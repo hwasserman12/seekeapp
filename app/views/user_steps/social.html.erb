@@ -1,0 +1,10 @@
+<h1>Where can we find you.</h1>
+
+<%= render layout: 'form' do |f| %>
+  <h5> How old are you?</h5>
+  <%= radio_button_tag(:age, "child") %>
+<%= label_tag(:age_child, "I am younger than 21") %>
+<%= radio_button_tag(:age, "adult") %>
+<%= label_tag(:age_adult, "I'm over 21") %>
+  
+<% end %>

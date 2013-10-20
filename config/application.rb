@@ -61,5 +61,7 @@ module Seekeapp
 
     # Required for Devise on Heroku
     config.assets.initialize_on_precompile = false
+    #
+    config.paths['app/views'] << "app/views/users"
   end
 end
